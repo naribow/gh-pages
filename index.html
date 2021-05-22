@@ -25,5 +25,16 @@
         $$
         です。
     </p>
+    <p>
+        $\textup{KL}$ダイバージェンスは、次のような性質があります。
+        $$
+        \begin{aligned}
+        \textup{KL}[q(\mathbf{x})||p(\mathbf{x})]
+        &=-\int q(\mathbf{x})\ln \frac{p(\mathbf{x})}{q(\mathbf{x})}\textup{d}\mathbf{x}
+        &=\mathbb{E}_{q(\mathbf{x})}[\ln q(\mathbf{x})]-\mathbb{E}_{q{(\mathbf{x})}}[\ln p(\mathbf{x})]
+        \end{aligned}
+        $$
+        確率分布間の統計的な距離として用いられることが多い。
+        非対称性: $\textup{KL}[q(\mathbf{x})||p({\mathbf{x}})]\not=\textup{KL}[p(\mathbf{x})||q({\mathbf{x}})]$
 </body>
 </html>
